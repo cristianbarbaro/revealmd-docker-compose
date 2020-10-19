@@ -4,4 +4,4 @@
 
 * `docker-compose up`
 
-* http://localhost:1948/.
+* Go to `http://localhost:1948/<SLIDE_NAME>.md`.

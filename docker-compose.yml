@@ -3,7 +3,11 @@ version: '3'
 services:
   reveal:
     image: webpronl/reveal-md
+    container_name: reveal-md
     ports:
       - "1948:1948"
     volumes:
       - ${SLIDES_DIR}:/slides
+
+volumes:
+  reveal:
